@@ -1,4 +1,5 @@
 body {
+  /* font-family: 'Pacifico', cursive; */
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
@@ -9,6 +10,10 @@ h1, h2, h3 {
 
 .container-fluid {
   padding: 7% 15%;
+}
+
+.fluid-container {
+  padding: 0;
 }
 
 .lg-heading {
@@ -25,7 +30,7 @@ h1, h2, h3 {
 /*-- Sections --*/
 
 .colour-section {
-  background-color: #FF4C68;
+  background-color: #E9921C;
   color: #fff;
 }
 
@@ -41,14 +46,16 @@ h1, h2, h3 {
 .navbar {
   padding-bottom: 4.5rem;
 }
-.navbar-brand {
-  font-family: Ubuntu;
-  font-size: 2.5rem;
-  font-weight: bold;
+.navbar-image {
+  width: 200px;
 }
 
 .navbar-nav {
   margin-left: auto;
+}
+
+.navigation-bar {
+  background-color: #FFF;
 }
 
 .nav-item {
@@ -70,16 +77,6 @@ h1, h2, h3 {
   padding: 3% 15% 7%;
 }
 
-/*--- Title Image ---*/
-
-.title-image {
-  transform: rotate(25deg);
-  max-width: 285px;
-  width: 60%;
-  position: absolute;
-  right: 25%;
-}
-
 /*--- Features Section ---*/
 
 #features {
@@ -99,17 +96,16 @@ h1, h2, h3 {
 }
 
 .icon {
-  color: #EF8172;
+  color: #D22324;
 }
 
 .icon:hover {
-  color: #FF4C68;
+  color: #EC008C;
 }
 
 /*-- Testimonial Section --*/
 
 #testimonials {
-  background-color: #EF8172;
   font-weight: bold;
 }
 
@@ -127,7 +123,6 @@ h1, h2, h3 {
 /*-- Press Section --*/
 
 #press {
-  background-color: #EF8172;
   padding-bottom: 3%;
 }
 
