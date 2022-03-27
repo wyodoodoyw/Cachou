@@ -132,6 +132,16 @@ h1, h2, h3 {
   width: 15%;
 }
 
+/*-- Address and Map Section --*/
+
+.address-container {
+  padding: 17px 0;
+}
+
+.cachou-map {
+  object-fit: contain;
+  width: 100%;
+}
 /*-- Pricing Section --*/
 
 #pricing {
