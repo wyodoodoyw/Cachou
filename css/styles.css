@@ -8,19 +8,31 @@ h1, h2, h3 {
   font-family: 'Montserrat-Bold', sans-serif;
 }
 
+h3 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
 .container-fluid {
   padding: 7% 15%;
 }
 
 .fluid-container {
   height: 150px;
-  padding: 0;
+  padding: 7% 15%;
 }
 
 .lg-heading {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
+  padding-bottom: 10px;
+}
+
+.nav-container {
+  height: 150px;
+  padding: 0;
 }
 
 .section-heading {
@@ -70,6 +82,22 @@ h1, h2, h3 {
 
 /*-- Title Section --*/
 
+.company-blurb-img {
+  margin: auto;
+  width: 40%;
+}
+
+.lori-bio {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.lori-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100%;
+}
+
 #title {
   text-align: left;
 }
@@ -107,7 +135,7 @@ h1, h2, h3 {
 /*-- Testimonial Section --*/
 
 #testimonials {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .testimonial-image {
@@ -117,7 +145,7 @@ h1, h2, h3 {
 }
 
 .testimonial-text {
-  font-size: 3rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
 
@@ -157,21 +185,32 @@ h1, h2, h3 {
   line-height: 1.5;
 }
 
+/*-- CTA --*/
+
+.cta-container {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /*-- Footer --*/
 
 .copyright {
   color: #8F8F8F;
 }
 
+/*--
 .footer-text {
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
   margin: auto 20%;
   position: relative;
 }
+--*/
 
 .social-icons {
-  margin: 20px 10px;
+  color: #D22324;
+  margin: 20px 20px;
 }
 
 /*-- @Media --*/
